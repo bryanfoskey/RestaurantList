@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
 
-    compile("com.h2database:h2:1.4.191")
+    implementation "com.h2database:h2:1.4.191"
 
 	implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
